@@ -1,0 +1,1 @@
+This make file should always point to the most recent stable version of the Springboard profile repository. The most recent stable version should be the highest tag on the master branch. The main purpose for this version is to be able to build and package a complete stable version of the Springboard distribution with a single command.
