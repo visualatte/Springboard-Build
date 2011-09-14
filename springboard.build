@@ -1,0 +1,12 @@
+; Springboard distribution build.
+; Download Drupal core and the Springboard profile
+
+api = 2
+core = 6.x
+projects[drupal][type] = core
+
+projects[springboard][type] = "profile"
+projects[springboard][download][type] = "git"
+projects[springboard][download][url] = "git@jacksonriver.beanstalkapp.com:/springboard-profile.git"
+projects[springboard][download][branch] = "release/6.x-dev"
+
