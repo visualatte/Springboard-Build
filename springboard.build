@@ -7,6 +7,6 @@ projects[drupal][type] = core
 
 projects[springboard][type] = "profile"
 projects[springboard][download][type] = "git"
-projects[springboard][download][url] = "git://github.com/JacksonRiver/Springboard-Profile.git"
+projects[springboard][download][url] = "git://github.com/JacksonRiver/springboard.git"
 projects[springboard][download][branch] = "6.x-3.0-dev"
 
