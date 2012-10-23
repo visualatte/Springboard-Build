@@ -1,11 +1,33 @@
-; Springboard distribution build.
-; Download Drupal core and the Springboard profile
+; Springboard dev snapshot makefile
+; The purpose of this makefile is to make it easier for people to install
+; the dev version of Springboard and its dependencies, including patches, before
+; a new full release of the distribution is rolled.  
 
 api = 2
-core = 6.x
+core = 7.x
 projects[drupal][type] = core
 
-projects[springboard][type] = "profile"
-projects[springboard][download][type] = "git"
-projects[springboard][download][url] = "git://github.com/JacksonRiver/springboard.git"
-projects[springboard][download][branch] = "6.x-3.0-dev"
+;Contrib modules
+projects[views][subdir] = contrib
+projects[cck][subdir] = contrib
+projects[pathauto][subdir] = contrib
+projects[ctools][subdir] = contrib
+projects[token][subdir] = contrib
+projects[webform][subdir] = contrib
+projects[securepages][subdir] = contrib
+projects[email][subdir] = contrib
+projects[features][subdir] = contrib
+projects[encrypt][subdir] = contrib
+projects[ubercart][subdir] = contrib
+
+;Development modules
+projects[coder][subdir] = developer
+projects[devel][subdir] = developer
+projects[schema][subdir] = developer
+projects[simpletest][subdir] = developer
+
+;Springboard
+projects[springboard][type] = module
+projects[springboard][download][type] = git
+projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
+projects[springboard][download][branch] = 7.x-3.0-qa
