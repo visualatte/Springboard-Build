@@ -16,7 +16,7 @@ You can either download the make file, or run it directly from GitHub.
 
 **From GitHub:**
 
-`drush make https://raw.github.com/JacksonRiver/Springboard-Build/6.x-3.2/springboard.build target_directory`
+`drush make https://raw.github.com/JacksonRiver/Springboard-Build/6.x-3.0-dev/springboard.build target_directory`
 
 In either case, replace `target_directory` with the name of the directory where you would like to install Springboard. `drush make` will download the Drupal core and the [Springboard install profile](https://github.com/JacksonRiver/springboard), which includes a make file of its own to tell `drush make` to download the [Springboard-specific modules](https://github.com/JacksonRiver/springboard_modules) and various contrib modules from [drupal.org](http://drupal.org).
 
