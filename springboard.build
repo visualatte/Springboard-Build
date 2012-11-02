@@ -19,12 +19,12 @@ projects[email][subdir] = contrib
 projects[features][subdir] = contrib
 projects[encrypt][subdir] = contrib
 projects[ubercart][subdir] = contrib
+projects[rules][subdir] = contrib
 
 ;Development modules
 projects[coder][subdir] = developer
 projects[devel][subdir] = developer
 projects[schema][subdir] = developer
-projects[simpletest][subdir] = developer
 
 ;Springboard
 projects[springboard][type] = module
