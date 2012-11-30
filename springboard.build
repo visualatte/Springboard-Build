@@ -8,18 +8,18 @@ core = 7.x
 projects[drupal][type] = core
 
 ;Contrib modules
-projects[views][subdir] = contrib
 projects[cck][subdir] = contrib
-projects[pathauto][subdir] = contrib
 projects[ctools][subdir] = contrib
-projects[token][subdir] = contrib
-projects[webform][subdir] = contrib
-projects[securepages][subdir] = contrib
 projects[email][subdir] = contrib
-projects[features][subdir] = contrib
 projects[encrypt][subdir] = contrib
-projects[ubercart][subdir] = contrib
+projects[features][subdir] = contrib
+projects[pathauto][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[securepages][subdir] = contrib
+projects[token][subdir] = contrib
+projects[ubercart][subdir] = contrib
+projects[views][subdir] = contrib
+projects[webform][subdir] = contrib
 
 ;Development modules
 projects[coder][subdir] = developer
