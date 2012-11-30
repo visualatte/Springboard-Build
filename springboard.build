@@ -12,7 +12,9 @@ projects[cck][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[email][subdir] = contrib
 projects[encrypt][subdir] = contrib
+projects[entity][subdir] = contrib
 projects[features][subdir] = contrib
+projects[libraries][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[rules][subdir] = contrib
 projects[salesforce][type] = module
@@ -25,6 +27,7 @@ projects[token][subdir] = contrib
 projects[ubercart][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
+projects[wysiwyg][subdir] = contrib
 
 ;Development modules
 projects[coder][subdir] = developer
