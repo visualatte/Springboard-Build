@@ -22,6 +22,7 @@ projects[salesforce][version] = 3.x
 projects[securepages][subdir] = contrib
 projects[token][subdir] = contrib
 projects[commerce][subdir] = contrib
+projects[addressfield][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
