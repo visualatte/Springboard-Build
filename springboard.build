@@ -57,12 +57,15 @@ projects[salesforce][patch][1867156] = http://drupal.org/files/1867156-salesforc
 
 ; Fixes validation enforced on every ajax request which prevented ability to
 ; have simpletests for the mapping forms.
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v1/0001-code-sniffer-adhearance.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v1/0002-Fix-instances-of-ocassional-PHP-notices.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v1/0003-Extract-logic-for-finding-default-form-field-value-i.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v1/0004-Fix-issue-with-form-validation-caused-by-ajax-calls.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v1/0005-Fix-incorrect-validation-logic.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v1/0006-Make-select-options-more-descriptive.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0001-code-sniffer-adhearance.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0002-Fix-instances-of-ocassional-PHP-notices.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0003-Fix-bug-where-mapping-name-length-was-not-being-vali.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0004-Fix-issue-if-key-is-set-to-first-row.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0005-Fix-issue-where-key-form-error-would-target-first-ro.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0006-Change-key-requirement-from-externalId-to-idLookup.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0007-Extract-logic-for-finding-default-form-field-value-i.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0008-Fix-issue-with-form-validation-caused-by-ajax-calls.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v2/0009-Make-select-options-more-descriptive.patch
 
 ; Simpletests for the mapping forms.
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-tests-v1/0001-Add-tests-for-entity-mapping.patch
+projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-tests-v2/0001-Add-tests-for-entity-mapping.patch
