@@ -50,7 +50,7 @@ libraries[salesforce][destination] = libraries
 ; Patches
 
 ; Fixes inability to UPSERT through SOAP.
-projects[salesforce][patch][1878180] = http://drupal.org/files/salesforce-add-identity_0.patch
+projects[salesforce][patch][1878180] = http://drupal.org/files/salesforce-add-identity_0_10.patch
 
 ; Adds caching to information requests to Salesforce to reduce calls in
 ; rapid-succession request situations.
