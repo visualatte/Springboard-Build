@@ -32,6 +32,7 @@ projects[wysiwyg][subdir] = contrib
 ;Development modules
 projects[coder][subdir] = developer
 projects[devel][subdir] = developer
+projects[grammar_parser_lib][subdir] = developer
 projects[schema][subdir] = developer
 
 ;Springboard
@@ -41,6 +42,9 @@ projects[springboard][download][url] = git://github.com/JacksonRiver/springboard
 projects[springboard][download][branch] = 7.x-3.0-qa
 
 ;Libraries
+libraries[grammar_parser][download][type] = file
+libraries[grammar_parser][download][url] = http://ftp.drupal.org/files/projects/grammar_parser-7.x-1.2.tar.gz
+libraries[grammar_parser][destination] = libraries
 libraries[salesforce][download][type] = git
 libraries[salesforce][download][url] = git://github.com/developerforce/Force.com-Toolkit-for-PHP
 libraries[salesforce][download][branch] = 0b1f2d78ce66249f4a9b8d6cb4dfeb07a182e7d7
