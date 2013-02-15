@@ -8,7 +8,11 @@ core = 7.x
 projects[drupal][type] = core
 
 ;Contrib modules
+projects[addressfield][subdir] = contrib
 projects[cck][subdir] = contrib
+projects[commerce][subdir] = contrib
+projects[commerce_authnet][subdir] = contrib
+projects[commerce_cardonfile][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[email][subdir] = contrib
 projects[encrypt][subdir] = contrib
@@ -21,10 +25,6 @@ projects[salesforce][subdir] = contrib
 projects[salesforce][version] = 3.x
 projects[securepages][subdir] = contrib
 projects[token][subdir] = contrib
-projects[commerce][subdir] = contrib
-projects[commerce_authnet][subdir] = contrib
-projects[commerce_cardonfile][subdir] = contrib
-projects[addressfield][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
