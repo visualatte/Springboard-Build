@@ -28,6 +28,7 @@ projects[token][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
+projects[views_bulk_operations][subdir] = contrib
 
 ;Development modules
 projects[coder][subdir] = developer
