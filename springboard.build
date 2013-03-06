@@ -21,14 +21,22 @@ projects[features][subdir] = contrib
 projects[libraries][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[rules][subdir] = contrib
-projects[salesforce][subdir] = contrib
-projects[salesforce][version] = 3.x
 projects[securepages][subdir] = contrib
 projects[token][subdir] = contrib
 projects[views][subdir] = contrib
 projects[webform][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
+
+;Uncomment once stable
+;projects[salesforce][subdir] = contrib
+;projects[salesforce][branch] = 3.x
+
+;Salesforce
+projects[salesforce][type] = module
+projects[salesforce][download][type] = git
+projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
+projects[salesforce][download][branch] = 13830766cab5cde5605156ab5b5a95232f39c9b7
 
 ;Development modules
 projects[coder][subdir] = developer
