@@ -7,50 +7,76 @@ api = 2
 core = 7.x
 projects[drupal][type] = core
 
-;Contrib modules
+; Contrib modules, with releases
+; Must refer to a specific version
 projects[addressfield][subdir] = contrib
-projects[cck][subdir] = contrib
+projects[addressfield][version] = 1.0-beta3
 projects[commerce][subdir] = contrib
+projects[commerce][version] = 1.5
 projects[commerce_authnet][subdir] = contrib
-projects[commerce_cardonfile][subdir] = contrib
+projects[commerce_authnet][version] = 1.0-rc1
 projects[ctools][subdir] = contrib
+projects[ctools[version] = 1.2
 projects[email][subdir] = contrib
+projects[email][version] = 1.2
 projects[encrypt][subdir] = contrib
+projects[encrypt][version] = 1.1
 projects[entity][subdir] = contrib
+projects[entity][version] = 1.0
 projects[features][subdir] = contrib
+projects[features][version] = 2.0-beta1
 projects[libraries][subdir] = contrib
+projects[libraries][version] = 2.1
 projects[pathauto][subdir] = contrib
+projects[pathauto][version] = 1.2
 projects[rules][subdir] = contrib
+projects[rules][version] = 2.2
 projects[securepages][subdir] = contrib
+projects[securepages][version] = 1.0-beta1
 projects[token][subdir] = contrib
+projects[token][version] = 1.5
 projects[views][subdir] = contrib
+projects[views][version] = 3.6
 projects[webform][subdir] = contrib
+projects[webform][version] = 3.18
 projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][version] = 2.2
 projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.1
 
-;Uncomment once stable
-;projects[salesforce][subdir] = contrib
-;projects[salesforce][branch] = 3.x
-
-;Salesforce
+; Contrib modules, without releases
+; Must refer to a specific commit
+projects[cck][subdir] = contrib
+projects[cck][type] = module
+projects[cck][download][type] = git
+projects[cck][download][url] = http://git.drupal.org/project/cck.git
+projects[cck][download][branch] = 08e23380ad5b582909ad101a4cb1deed9edaa070
+projects[commerce_cardonfile][subdir] = contrib
+projects[commerce_cardonfile][type] = module
+projects[commerce_cardonfile][download][type] = git
+projects[commerce_cardonfile][download][url] = http://git.drupal.org/project/commerce_cardonfile.git
+projects[commerce_cardonfile][download][branch] = 16df197bfd2728abc41ba3649bb1351b9f01fb03
+projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
 projects[salesforce][download][branch] = 26593d86b37b53deed7b611db6eb3bc9513dbaf7
 
-;Development modules
+; Development modules
+; May always be the latest version
 projects[coder][subdir] = developer
 projects[devel][subdir] = developer
 projects[grammar_parser_lib][subdir] = developer
 projects[schema][subdir] = developer
 
-;Springboard
+; Springboard
+; Points to latest version until tagged
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
 projects[springboard][download][branch] = 7.x-3.0-qa
 
-;Libraries
+; Libraries
 libraries[grammar_parser][download][type] = file
 libraries[grammar_parser][download][url] = http://ftp.drupal.org/files/projects/grammar_parser-7.x-1.2.tar.gz
 libraries[grammar_parser][destination] = libraries
