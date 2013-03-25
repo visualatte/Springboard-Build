@@ -36,7 +36,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
-projects[salesforce][download][branch] = 13830766cab5cde5605156ab5b5a95232f39c9b7
+projects[salesforce][download][branch] = 26593d86b37b53deed7b611db6eb3bc9513dbaf7
 
 ;Development modules
 projects[coder][subdir] = developer
@@ -62,29 +62,32 @@ libraries[salesforce][destination] = libraries
 
 ; Patches
 
-; Fixes inability to UPSERT through SOAP.
-projects[salesforce][patch][1878180] = http://drupal.org/files/salesforce-add-identity_0_10.patch
+; Code standard compliance
+projects[salesforce][patch][00-1951674] = http://drupal.org/files/salesforce-code_sniffer.patch
 
 ; Adds caching to information requests to Salesforce to reduce calls in
 ; rapid-succession request situations.
-projects[salesforce][patch][1867156] = http://drupal.org/files/1867156-salesforce_cache_objects_0.patch
+projects[salesforce][patch][01-1867156] = http://drupal.org/files/1867156-salesforce_cache_object-code_standard_dependant.patch
 
 ; Misc bug fixes of varying severity.
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-bug_fixes-v1/0001-code-sniffer-adhearance.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-bug_fixes-v1/0002-Fix-instances-of-ocassional-PHP-notices.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-bug_fixes-v1/0003-Fix-bug-where-mapping-name-length-was-not-being-vali.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-bug_fixes-v1/0004-Fix-issue-if-key-is-set-to-first-row.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-bug_fixes-v1/0005-Fix-issue-where-key-form-error-would-target-first-ro.patch
+projects[salesforce][patch][02-1951686] = http://drupal.org/files/salesforce-php-notices.patch
+projects[salesforce][patch][03-1951694] = http://drupal.org/files/salesforce-map_name_validation.patch
+projects[salesforce][patch][04-1951700] = http://drupal.org/files/salesforce-key_0_validation.patch
+projects[salesforce][patch][05-1951706] = http://drupal.org/files/salesforce-key_error_row_target.patch
+projects[salesforce][patch][06-1951710] = http://drupal.org/files/salesforce-batch_records_checkbox.patch
 
 ; Fixes validation enforced on every ajax request which prevented ability to
 ; have simpletests for the mapping forms.
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v3/0001-Extract-logic-for-finding-default-form-field-value-i.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-fix_ajax_validation-v3/0002-Fix-issue-with-form-validation-caused-by-ajax-calls.patch
+projects[salesforce][patch][07-1951722-01] = http://drupal.org/files/salesforce_mapping-01-extract_default_values.patch
+projects[salesforce][patch][08-1951722-02] = http://drupal.org/files/salesforce_mapping-02-ajax_validation.patch
+
+; Avoids errors when SalesforceSoapPartner is not fully working.
+projects[salesforce][patch][09-1935612] = http://drupal.org/files/salesforce-soap-errors-code_standard_dependant-1935612.patch
 
 ; Modifications to Salesforce that are not strictly considered bug fixes.
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-enhancements-v1/0001-Change-key-requirement-from-externalId-to-idLookup.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-enhancements-v1/0002-Make-mapping-table-easier-to-alter.patch
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-enhancements-v1/0003-Make-select-options-more-descriptive.patch
+projects[salesforce][patch][10-1951728] = http://drupal.org/files/salesforce-externalId_to_idLookup.patch
+projects[salesforce][patch][11-1951730] = http://drupal.org/files/salesforce_mapping-flexible_table_alter.patch
+projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_mapping-descriptive_select.patch
 
 ; Simpletests for the mapping forms.
-projects[salesforce][patch][] = https://raw.github.com/wiki/JacksonRiver/Springboard-Build/patches/salesforce-tests-v3/0001-Add-tests-for-entity-mapping.patch
+projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests.patch
