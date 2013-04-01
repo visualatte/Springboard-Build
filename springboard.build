@@ -71,24 +71,18 @@ projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
 projects[salesforce][download][branch] = 26593d86b37b53deed7b611db6eb3bc9513dbaf7
 
-; Development modules
-; May always be the latest version
-projects[coder][subdir] = developer
-projects[devel][subdir] = developer
-projects[grammar_parser_lib][subdir] = developer
-projects[schema][subdir] = developer
-
 ; Libraries
-libraries[grammar_parser][download][type] = file
-libraries[grammar_parser][download][url] = http://ftp.drupal.org/files/projects/grammar_parser-7.x-1.2.tar.gz
-libraries[grammar_parser][destination] = libraries
+; Must point to tag or commit
 libraries[salesforce][download][type] = git
 libraries[salesforce][download][url] = git://github.com/developerforce/Force.com-Toolkit-for-PHP
 libraries[salesforce][download][branch] = 0b1f2d78ce66249f4a9b8d6cb4dfeb07a182e7d7
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
 
+
+;
 ; Patches
+;
 
 ; Code standard compliance
 projects[salesforce][patch][00-1951674] = http://drupal.org/files/salesforce-code_sniffer.patch
@@ -119,3 +113,21 @@ projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_map
 
 ; Simpletests for the mapping forms.
 projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests.patch
+
+
+;
+; Development Tools
+;
+
+; Development modules
+; May always be the latest version
+projects[coder][subdir] = developer
+projects[devel][subdir] = developer
+projects[grammar_parser_lib][subdir] = developer
+projects[schema][subdir] = developer
+
+; Dev libraries
+; May always be the latest version
+libraries[grammar_parser][download][type] = file
+libraries[grammar_parser][download][url] = http://ftp.drupal.org/files/projects/grammar_parser-7.x-1.2.tar.gz
+libraries[grammar_parser][destination] = libraries
