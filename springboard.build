@@ -1,9 +1,10 @@
-; Springboard dev snapshot makefile
+; Springboard makefile
 ; The purpose of this makefile is to make it easier for people to install
-; the dev version of Springboard and its dependencies, including patches, before
-; a new full release of the distribution is rolled.
-
+; Springboard and its dependencies, including patches.
 api = 2
+
+; Drupal
+; Points to 7.x until tagged
 core = 7.x
 projects[drupal][type] = core
 
@@ -15,7 +16,7 @@ projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
 projects[sbsetup][download][branch] = 7.x-4.x
 
 ; Springboard
-; Points to latest version until tagged
+; Points to 7.x-3.0-qa until tagged
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
