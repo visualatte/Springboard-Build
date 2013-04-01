@@ -7,6 +7,13 @@ api = 2
 core = 7.x
 projects[drupal][type] = core
 
+; Springboard profile
+; Points to 7.x-4.x until tagged
+projects[sbsetup][type] = profile
+projects[sbsetup][download][type] = git
+projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
+projects[sbsetup][download][branch] = 7.x-4.x
+
 ; Springboard
 ; Points to latest version until tagged
 projects[springboard][type] = module
