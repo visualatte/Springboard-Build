@@ -81,11 +81,14 @@ projects[salesforce][download][branch] = a786fbed7f6c5ab826595d6a264595a223c9546
 
 ; Libraries
 ; Must point to tag or commit
-libraries[salesforce][download][type] = git
-libraries[salesforce][download][url] = git://github.com/developerforce/Force.com-Toolkit-for-PHP
-libraries[salesforce][download][branch] = 0b1f2d78ce66249f4a9b8d6cb4dfeb07a182e7d7
 libraries[salesforce][directory_name] = salesforce
 libraries[salesforce][destination] = libraries
+libraries[salesforce][download][type] = git
+libraries[salesforce][download][url] = git://github.com/developerforce/Force.com-Toolkit-for-PHP
+; Older version, before soap bug
+;libraries[salesforce][download][branch] = 0b1f2d78ce66249f4a9b8d6cb4dfeb07a182e7d7
+; Newer version, contains soap bug
+libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a98925289
 
 
 ;
