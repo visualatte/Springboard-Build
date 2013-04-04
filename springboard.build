@@ -77,7 +77,7 @@ projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
-projects[salesforce][download][branch] = 26593d86b37b53deed7b611db6eb3bc9513dbaf7
+projects[salesforce][download][branch] = a786fbed7f6c5ab826595d6a264595a223c9546a
 
 ; Libraries
 ; Must point to tag or commit
@@ -92,23 +92,13 @@ libraries[salesforce][destination] = libraries
 ; Patches
 ;
 
-; Code standard compliance
-projects[salesforce][patch][00-1951674] = http://drupal.org/files/salesforce-code_sniffer.patch
-
 ; Adds caching to information requests to Salesforce to reduce calls in
 ; rapid-succession request situations.
-projects[salesforce][patch][01-1867156] = http://drupal.org/files/1867156-salesforce_cache_object-code_standard_dependant.patch
-
-; Misc bug fixes of varying severity.
-projects[salesforce][patch][02-1951686] = http://drupal.org/files/salesforce-php-notices.patch
-projects[salesforce][patch][03-1951694] = http://drupal.org/files/salesforce-map_name_validation.patch
-projects[salesforce][patch][04-1951700] = http://drupal.org/files/salesforce-key_0_validation.patch
-projects[salesforce][patch][05-1951706] = http://drupal.org/files/salesforce-key_error_row_target.patch
-projects[salesforce][patch][06-1951710] = http://drupal.org/files/salesforce-batch_records_checkbox.patch
+projects[salesforce][patch][01-1867156] = http://drupal.org/files/salesforce_cache_object-code_standard_dependant-1867156.patch
 
 ; Fixes validation enforced on every ajax request which prevented ability to
 ; have simpletests for the mapping forms.
-projects[salesforce][patch][07-1951722-01] = http://drupal.org/files/salesforce_mapping-01-extract_default_values.patch
+projects[salesforce][patch][07-1951722-01] = http://drupal.org/files/salesforce_mapping-01-extract_default_values-1951722.patch
 projects[salesforce][patch][08-1951722-02] = http://drupal.org/files/salesforce_mapping-02-ajax_validation.patch
 
 ; Avoids errors when SalesforceSoapPartner is not fully working.
@@ -120,7 +110,7 @@ projects[salesforce][patch][11-1951730] = http://drupal.org/files/salesforce_map
 projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_mapping-descriptive_select.patch
 
 ; Simpletests for the mapping forms.
-projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests.patch
+projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744.patch
 
 
 ;
