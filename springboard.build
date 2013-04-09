@@ -16,11 +16,11 @@ projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
 projects[sbsetup][download][branch] = 7.x-4.x
 
 ; Springboard
-; Points to 7.x-3.0-qa until tagged
+; Points to 7.x-4.x until tagged
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-3.0-qa
+projects[springboard][download][branch] = 7.x-4.x
 
 ; Contrib modules, with releases
 ; Must refer to a specific version
