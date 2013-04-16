@@ -81,7 +81,7 @@ projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
-projects[salesforce][download][branch] = a786fbed7f6c5ab826595d6a264595a223c9546a
+projects[salesforce][download][branch] = fb888891e7cb0778aabe0c35194e49f1212e321d
 
 ; Libraries
 ; Must point to tag or commit
@@ -99,22 +99,19 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ; Patches
 ;
 
-; Adds caching to information requests to Salesforce to reduce calls in
-; rapid-succession request situations.
-projects[salesforce][patch][01-1867156] = http://drupal.org/files/salesforce_cache_object-code_standard_dependant-1867156.patch
+; Fix issue where validation is not failing when key is not selected or invalid
+; on row 0
+projects[salesforce][patch][01-1951700] = http://drupal.org/files/key_validation-1951700_0.patch
 
 ; Fixes validation enforced on every ajax request which prevented ability to
 ; have simpletests for the mapping forms.
-projects[salesforce][patch][07-1951722-01] = http://drupal.org/files/salesforce_mapping-01-extract_default_values-1951722.patch
-projects[salesforce][patch][08-1951722-02] = http://drupal.org/files/salesforce_mapping-02-ajax_validation.patch
-
-; Avoids errors when SalesforceSoapPartner is not fully working.
-projects[salesforce][patch][09-1935612] = http://drupal.org/files/salesforce-soap-errors-code_standard_dependant-1935612.patch
+projects[salesforce][patch][07-1951722-01] = http://drupal.org/files/salesforce_mapping-01-extract_default_values-1951722_0.patch
+projects[salesforce][patch][08-1951722-02] = http://drupal.org/files/salesforce_mapping-02-extract_default_values-1951722.patch
 
 ; Modifications to Salesforce that are not strictly considered bug fixes.
-projects[salesforce][patch][10-1951728] = http://drupal.org/files/salesforce-externalId_to_idLookup.patch
+projects[salesforce][patch][10-1951728] = http://drupal.org/files/salesforce-externalId_to_idLookup-1951728.patch
 projects[salesforce][patch][11-1951730] = http://drupal.org/files/salesforce_mapping-flexible_table_alter.patch
-projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_mapping-descriptive_select.patch
+projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_mapping-descriptive_select-1951734.patch
 
 ; Simpletests for the mapping forms.
 projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744.patch
