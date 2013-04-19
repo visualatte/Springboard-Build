@@ -24,6 +24,8 @@ projects[springboard][download][branch] = 7.x-4.x
 
 ; Contrib modules, with releases
 ; Must refer to a specific version
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version = 3.0-rc4
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
 projects[commerce][subdir] = contrib
@@ -46,6 +48,8 @@ projects[features][subdir] = contrib
 projects[features][version] = 2.0-beta1
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 1.7
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[pathauto][subdir] = contrib
@@ -125,8 +129,10 @@ projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_map
 ; May always be the latest version
 projects[coder][subdir] = developer
 projects[devel][subdir] = developer
+projects[environment_indicator][subdir] = developer
 projects[grammar_parser_lib][subdir] = developer
 projects[schema][subdir] = developer
+projects[stage_file_proxy][subdir] = developer
 
 ; Dev libraries
 ; May always be the latest version
