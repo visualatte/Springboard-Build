@@ -81,7 +81,7 @@ projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
-projects[salesforce][download][branch] = fb888891e7cb0778aabe0c35194e49f1212e321d
+projects[salesforce][download][branch] = cbf697b90706d6354db29376a4017d1d451ca8ba
 
 ; Libraries
 ; Must point to tag or commit
@@ -99,22 +99,15 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ; Patches
 ;
 
-; Fix issue where validation is not failing when key is not selected or invalid
-; on row 0
-projects[salesforce][patch][01-1951700] = http://drupal.org/files/key_validation-1951700_0.patch
-
-; Fixes validation enforced on every ajax request which prevented ability to
-; have simpletests for the mapping forms.
-projects[salesforce][patch][07-1951722-01] = http://drupal.org/files/salesforce_mapping-01-extract_default_values-1951722_0.patch
-projects[salesforce][patch][08-1951722-02] = http://drupal.org/files/salesforce_mapping-02-extract_default_values-1951722.patch
+; Fix issue when validation patch was modified when applied to module
+projects[salesforce][patch][01-1951722] = http://drupal.org/files/salesforce-mapping-fix-1951722.patch
 
 ; Modifications to Salesforce that are not strictly considered bug fixes.
-projects[salesforce][patch][10-1951728] = http://drupal.org/files/salesforce-externalId_to_idLookup-1951728.patch
-projects[salesforce][patch][11-1951730] = http://drupal.org/files/salesforce_mapping-flexible_table_alter.patch
-projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_mapping-descriptive_select-1951734.patch
+projects[salesforce][patch][10-1951728] = http://drupal.org/files/salesforce-externalId_to_idLookup-1951728_0.patch
+projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_mapping-descriptive_select-1951734_0.patch
 
 ; Simpletests for the mapping forms.
-projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744.patch
+projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744_0.patch
 
 
 ;
