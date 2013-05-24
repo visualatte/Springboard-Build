@@ -85,7 +85,7 @@ projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
-projects[salesforce][download][branch] = cbf697b90706d6354db29376a4017d1d451ca8ba
+projects[salesforce][download][branch] = 44521694614b2d895d90c9c79f8af0f49dd8dddd
 
 ; Libraries
 ; Must point to tag or commit
@@ -103,15 +103,11 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 ; Patches
 ;
 
-; Fix issue when validation patch was modified when applied to module
-projects[salesforce][patch][01-1951722] = http://drupal.org/files/salesforce-mapping-fix-1951722.patch
+; Add idLookup as an option for UPSERT key
+projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-externalId_and_idLookup-1951728.patch
 
-; Modifications to Salesforce that are not strictly considered bug fixes.
-projects[salesforce][patch][10-1951728] = http://drupal.org/files/salesforce-externalId_to_idLookup-1951728_0.patch
-projects[salesforce][patch][12-1951734] = http://drupal.org/files/salesforce_mapping-descriptive_select-1951734_0.patch
-
-; Simpletests for the mapping forms.
-projects[salesforce][patch][13-1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744_0.patch
+; Fix broken test
+projects[salesforce][patch][1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744-12.patch
 
 
 ;
