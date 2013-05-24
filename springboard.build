@@ -107,7 +107,7 @@ libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a989252
 projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-externalId_and_idLookup-1951728.patch
 
 ; Fix broken test
-projects[salesforce][patch][1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744-12.patch
+projects[salesforce][patch][1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744_1.patch
 
 
 ;
