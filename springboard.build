@@ -85,7 +85,7 @@ projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
 projects[salesforce][download][url] = http://git.drupal.org/project/salesforce.git
-projects[salesforce][download][branch] = 44521694614b2d895d90c9c79f8af0f49dd8dddd
+projects[salesforce][download][branch] = 165bf7ed4fa2b254cf0ed276e88fb52cf1652a69
 
 ; Libraries
 ; Must point to tag or commit
@@ -108,6 +108,12 @@ projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-extern
 
 ; Fix broken test
 projects[salesforce][patch][1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744_1.patch
+
+; Fix "key does not exist" error
+projects[salesforce][patch][2014203] = https://drupal.org/files/salesforce_mapping-key_not_exist.patch
+
+; Include only record types that are available
+projects[salesforce][patch][2014207] = https://drupal.org/files/salesforce_mapping-available_record_types.patch
 
 
 ;
