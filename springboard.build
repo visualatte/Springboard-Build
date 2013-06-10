@@ -24,10 +24,10 @@ projects[springboard][download][branch] = 7.x-4.x
 
 ; Contrib modules, with releases
 ; Must refer to a specific version
-projects[admin_menu][subdir] = contrib
-projects[admin_menu][version = 3.0-rc4
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version = 3.0-rc4
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.5
 projects[commerce_authnet][subdir] = contrib
