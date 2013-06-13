@@ -119,6 +119,8 @@ projects[salesforce][patch][2014203] = https://drupal.org/files/salesforce_mappi
 ; Include only record types that are available
 projects[salesforce][patch][2014207] = https://drupal.org/files/salesforce_mapping-available_record_types.patch
 
+; Allow connections to test salesforce accounts
+projects[salesforce][patch][1934790] = https://drupal.org/files/salesforce-sandox-account-access-1934790-9.patch
 
 ;
 ; Development Tools
