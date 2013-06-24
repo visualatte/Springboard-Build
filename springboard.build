@@ -33,8 +33,6 @@ projects[springboard][download][branch] = 7.x-4.x
 ; Must refer to a specific version
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta3
-projects[admin_menu][subdir] = contrib
-projects[admin_menu][version = 3.0-rc4
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.5
 projects[commerce_authnet][subdir] = contrib
@@ -57,8 +55,6 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.1
-projects[module_filter][subdir] = contrib
-projects[module_filter][version] = 1.7
 projects[node_clone][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[pathauto][subdir] = contrib
@@ -135,10 +131,12 @@ projects[salesforce][patch][1934790] = https://drupal.org/files/salesforce-sando
 
 ; Development modules
 ; May always be the latest version
+projects[admin_menu][subdir] = developer
 projects[coder][subdir] = developer
 projects[devel][subdir] = developer
 projects[environment_indicator][subdir] = developer
 projects[grammar_parser_lib][subdir] = developer
+projects[module_filter][subdir] = developer
 projects[schema][subdir] = developer
 projects[stage_file_proxy][subdir] = developer
 
