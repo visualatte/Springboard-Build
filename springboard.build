@@ -67,14 +67,14 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.5
 projects[views][subdir] = contrib
 projects[views][version] = 3.6
+projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.1
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0-alpha1
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
-projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 3.1
 
 ; Contrib modules, without releases
 ; Must refer to a specific commit
