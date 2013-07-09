@@ -123,6 +123,9 @@ projects[salesforce][patch][2014207] = https://drupal.org/files/salesforce_mappi
 ; Allow connections to test salesforce accounts
 projects[salesforce][patch][1934790] = https://drupal.org/files/salesforce-sandox-account-access-1934790-9.patch
 
+; Additional caching login in describObject method
+projects[salesforce][patch][2037609] = https://drupal.org/files/salesforce-object-additional-caching.patch
+
 ;
 ; Development Tools
 ;
