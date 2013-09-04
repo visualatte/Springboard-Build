@@ -73,6 +73,8 @@ projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0-alpha1
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
+projects[commerce_cardonfile][subdir] = contrib
+projects[commerce_cardonfile][version] = 2.0-beta1
 
 ; Contrib modules, without releases
 ; Must refer to a specific commit
@@ -81,11 +83,6 @@ projects[cck][type] = module
 projects[cck][download][type] = git
 projects[cck][download][url] = http://git.drupal.org/project/cck.git
 projects[cck][download][branch] = 08e23380ad5b582909ad101a4cb1deed9edaa070
-projects[commerce_cardonfile][subdir] = contrib
-projects[commerce_cardonfile][type] = module
-projects[commerce_cardonfile][download][type] = git
-projects[commerce_cardonfile][download][url] = http://git.drupal.org/project/commerce_cardonfile.git
-projects[commerce_cardonfile][download][branch] = 16df197bfd2728abc41ba3649bb1351b9f01fb03
 projects[salesforce][subdir] = contrib
 projects[salesforce][type] = module
 projects[salesforce][download][type] = git
