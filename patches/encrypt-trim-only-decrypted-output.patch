@@ -1,0 +1,20 @@
+diff --git a/includes/encrypt.encrypt.inc b/includes/encrypt.encrypt.inc
+index 71dbf3a..46bde8d 100644
+--- a/includes/encrypt.encrypt.inc
++++ b/includes/encrypt.encrypt.inc
+@@ -118,7 +118,7 @@ function encrypt_encrypt_mcrypt_rij_256($op = 'encrypt', $text = '', $options =
+     }
+ 
+     // Decrypt text
+-    $processed_text = mcrypt_decrypt(MCRYPT_RIJNDAEL_256, $key, $text, MCRYPT_MODE_ECB, $iv);
++    $processed_text = trim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, $key, $text, MCRYPT_MODE_ECB, $iv));
+   }
+   else {
+     // Encrypt
+@@ -130,5 +130,5 @@ function encrypt_encrypt_mcrypt_rij_256($op = 'encrypt', $text = '', $options =
+     }
+   }
+ 
+-  return trim($processed_text);
++  return $processed_text;
+ }
