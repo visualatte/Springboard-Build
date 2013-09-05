@@ -120,6 +120,12 @@ projects[salesforce][patch][1934790] = https://drupal.org/files/salesforce-sando
 ; Additional caching login in describObject method
 projects[salesforce][patch][2037609] = https://drupal.org/files/salesforce-object-additional-caching.patch
 
+; Make encrypt module use the encrypt key
+projects[encrypt][patch][1927572] = https://drupal.org/files/encrypt_key_is_never_used.patch
+
+; Trim only the decrypted output from encrypt
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/encrypt-trim-only-decrypted-output.patch
+
 ;
 ; Development Tools
 ;
