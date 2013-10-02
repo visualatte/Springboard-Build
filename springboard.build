@@ -100,6 +100,12 @@ libraries[salesforce][download][url] = git://github.com/developerforce/Force.com
 ; Newer version, contains soap bug
 libraries[salesforce][download][branch] = 329d109c0abad7d1cfa035e816dd907a98925289
 
+; litle sdk
+libraries[litle][directory_name] = litle
+libraries[litle][destination] = libraries
+libraries[litle][download][type] = git
+libraries[litle][download][url] = https://github.com/LitleCo/litle-sdk-for-php.git
+libraries[litle][download][tag] = 8.19.0
 
 ;
 ; Patches
