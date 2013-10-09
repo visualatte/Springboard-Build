@@ -118,16 +118,16 @@ projects[salesforce][patch][1951728] = http://drupal.org/files/salesforce-extern
 projects[salesforce][patch][1951744] = http://drupal.org/files/salesforce_mapping-tests-1951744_1.patch
 
 ; Include only record types that are available
-projects[salesforce][patch][2014207] = https://drupal.org/files/salesforce_mapping-available_record_types.patch
+projects[salesforce][patch][2014207] = http://drupal.org/files/salesforce_mapping-available_record_types.patch
 
 ; Allow connections to test salesforce accounts
-projects[salesforce][patch][1934790] = https://drupal.org/files/salesforce-sandox-account-access-1934790-9.patch
+projects[salesforce][patch][1934790] = http://drupal.org/files/salesforce-sandox-account-access-1934790-9.patch
 
 ; Additional caching login in describObject method
-projects[salesforce][patch][2037609] = https://drupal.org/files/salesforce-object-additional-caching.patch
+projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object-additional-caching.patch
 
 ; Make encrypt module use the encrypt key
-projects[encrypt][patch][1927572] = https://drupal.org/files/encrypt_key_is_never_used.patch
+projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
 projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/encrypt-trim-only-decrypted-output.patch
