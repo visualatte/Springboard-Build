@@ -67,11 +67,13 @@ projects[views_bulk_operations][version] = 3.1
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.19
 projects[webform_ab][subdir] = contrib
-projects[webform_ab][version] = 2.0-alpha1
+projects[webform_ab][version] = 2.0
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 projects[commerce_cardonfile][subdir] = contrib
 projects[commerce_cardonfile][version] = 2.0-beta1
+projects[jquery_update][subdir] = contrib
+projects[jquery_update][version] = 2.x-dev
 
 ; Contrib modules, without releases
 ; Must refer to a specific commit
@@ -128,6 +130,9 @@ projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never
 
 ; Trim only the decrypted output from encrypt
 projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/encrypt-trim-only-decrypted-output.patch
+
+; Fix to authnet requirements
+projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
 
 ;
 ; Development Tools
