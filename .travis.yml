@@ -12,6 +12,8 @@ script:
   - drush make springboard.build ../springboard
   - cd ../springboard
   - test -d profiles/sbsetup
-  - test -d profiles/vih_dk/modules/contrib
-  - test -d profiles/vih_dk/modules/vih
-  - test -d profiles/vih_dk/themes
+  - test -d sites/all/modules/springboard
+  - test -d sites/all/modules/contrib
+  - test -d sites/all/modules/developer
+  - test -d sites/all/themes/springboard_themes
+  - test -d sites/all/libraries
