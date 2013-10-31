@@ -1,0 +1,19 @@
+language: php
+
+php:
+  - 5.3
+
+before_script:
+  - pear channel-discover pear.drush.org
+  - pear install drush/drush
+  - phpenv rehash
+
+script:
+  - drush make springboard.build ../springboard
+  - cd ../springboard
+  - test -d profiles/sbsetup
+  - test -d sites/all/modules/springboard
+  - test -d sites/all/modules/contrib
+  - test -d sites/all/modules/developer
+  - test -d sites/all/themes/springboard_themes
+  - test -d sites/all/libraries

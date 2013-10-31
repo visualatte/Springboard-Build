@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/JacksonRiver/Springboard-Build.png?branch=7.x-4.x)](https://travis-ci.org/JacksonRiver/Springboard-Build)
+
 ## About
 
 This project and these instructions are intended for developers. If you just
