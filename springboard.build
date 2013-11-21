@@ -4,8 +4,7 @@
 api = 2
 
 ; Drupal
-; Points to 7.x until tagged
-core = 7.x
+core = 7.24
 projects[drupal][type] = core
 
 ; Springboard profile
