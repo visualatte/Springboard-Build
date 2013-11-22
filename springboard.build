@@ -145,6 +145,7 @@ projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_r
 projects[improved_multi_select][patch][2048421] = http://drupal.org/files/remove_items_when_saving-2048421-3.patch
 projects[improved_multi_select][patch][2138623] = http://drupal.org/files/issues/optgroup_compatibility_with_jquery_update-2138623.patch
 projects[improved_multi_select][patch][2139433] = http://drupal.org/files/issues/spaces_in_optgroup_label-2139433.patch
+projects[improved_multi_select][patch][2142341] = http://drupal.org/files/issues/escape_filter_value-2142341.patch
 
 ;
 ; Development Tools
