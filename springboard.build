@@ -74,6 +74,10 @@ projects[commerce_cardonfile][version] = 2.0-beta1
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
 
+; This module is optionally used by webform_goals to make selecting form groups easier.
+projects[improved_multi_select][subdir] = contrib
+projects[improved_multi_select][version] = 2.x-dev
+
 ; Contrib modules, without releases
 ; Must refer to a specific commit
 projects[cck][subdir] = contrib
