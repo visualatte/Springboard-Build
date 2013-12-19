@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JacksonRiver/Springboard-Build.png?branch=7.x-4.0-fakerelease-4)](https://travis-ci.org/JacksonRiver/Springboard-Build)
+[![Build Status](https://travis-ci.org/JacksonRiver/Springboard-Build.png?branch=7.x-4.x)](https://travis-ci.org/JacksonRiver/Springboard-Build)
 
 ## About
 
