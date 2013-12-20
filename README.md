@@ -3,7 +3,7 @@
 ## About
 
 This project and these instructions are intended for developers. If you just
-want to get a Springboard site up and running, see the [installation
+wPhing to get a Springboard site up and running, see the [installation
 instructions on GoSpringboard.com](http://www.gospringboard.com/documentation/installing-springboard).
 
 This make file is used to create a fresh Springboard install, using
@@ -23,7 +23,7 @@ You can either download the make file, or run it directly from GitHub.
 
 **From GitHub:**
 
-`drush make https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x/springboard.build target_directory`
+`drush make https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.1/springboard.build target_directory`
 
 In either case, replace `target_directory` with the name of the directory where
 you would like to install Springboard. `drush make` will download the Drupal
