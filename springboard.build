@@ -13,7 +13,7 @@ projects[drupal][type] = core
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.x-admin_interface
 
 ; Springboard themes
 ; Points to 7.x-4.x until tagged
