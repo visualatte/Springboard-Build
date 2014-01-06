@@ -4,26 +4,22 @@
 api = 2
 
 ; Drupal
-; Points to 7.x until tagged
-core = 7.x
+core = 7.24
 projects[drupal][type] = core
 
 ; Springboard profile
-; Points to 7.x-4.x until tagged
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
 projects[sbsetup][download][branch] = 7.x-4.x-admin_interface
 
 ; Springboard themes
-; Points to 7.x-4.x until tagged
 projects[springboard_themes][type] = theme
 projects[springboard_themes][download][type] = git
 projects[springboard_themes][download][url] = git://github.com/JacksonRiver/springboard-themes.git
 projects[springboard_themes][download][branch] = 7.x-4.x
 
 ; Springboard
-; Points to 7.x-4.x until tagged
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
@@ -86,6 +82,10 @@ projects[commerce_cardonfile][version] = 2.0-beta1
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
 
+; This module is optionally used by webform_goals to make selecting form groups easier.
+projects[improved_multi_select][subdir] = contrib
+projects[improved_multi_select][version] = 2.x-dev
+
 ; Contrib modules, without releases
 ; Must refer to a specific commit
 projects[cck][subdir] = contrib
@@ -145,7 +145,7 @@ projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
 ; Trim only the decrypted output from encrypt
-projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x/patches/encrypt-trim-only-decrypted-output.patch
+projects[encrypt][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.1.1/patches/encrypt-trim-only-decrypted-output.patch
 
 ; Fix to authnet requirements
 projects[commerce_authnet][patch][2063787] = http://drupal.org/files/incorrect_requirements-2063787-1.patch
