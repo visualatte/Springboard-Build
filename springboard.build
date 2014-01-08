@@ -29,6 +29,8 @@ projects[springboard][download][branch] = 7.x-4.x-admin_interface
 ; Must refer to a specific version
 projects[addressfield][subdir] = contrib
 projects[addressfield][version] = 1.0-beta4
+projects[cdn][subdir] = contrib
+projects[cdn][version] = 2.6
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.8
 projects[commerce_authnet][subdir] = contrib
