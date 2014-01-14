@@ -4,8 +4,9 @@
 api = 2
 
 ; Drupal
-core = 7.24
+core = 7.x
 projects[drupal][type] = core
+projects[drupal][version] = 7.24
 
 ; Springboard profile
 projects[sbsetup][type] = profile
