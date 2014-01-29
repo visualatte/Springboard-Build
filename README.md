@@ -23,7 +23,7 @@ You can either download the make file, or run it directly from GitHub.
 
 **From GitHub:**
 
-`drush make https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.2/springboard.build target_directory`
+`drush make https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x-unlimited-sustainers/springboard.build target_directory`
 
 In either case, replace `target_directory` with the name of the directory where
 you would like to install Springboard. `drush make` will download the Drupal
