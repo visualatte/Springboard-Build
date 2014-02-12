@@ -89,7 +89,7 @@ projects[commerce_cardonfile][version] = 2.0-beta1
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.x-dev
 projects[bakery][subdir] = contrib
-projects[bakery][version] = 2.0
+projects[bakery][version] = 2.0-alpha4
 
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
