@@ -9,11 +9,10 @@ before_script:
   - phpenv rehash
 
 script:
-  - drush make springboard.build ../springboard
+  - drush make springboard-mtsb.make ../springboard
   - cd ../springboard
   - test -d profiles/sbsetup
   - test -d sites/all/modules/springboard
   - test -d sites/all/modules/contrib
-  - test -d sites/all/modules/developer
   - test -d sites/all/themes/springboard_themes
   - test -d sites/all/libraries
