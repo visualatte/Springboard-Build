@@ -90,6 +90,12 @@ projects[shorten][version] = 1.2
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
+projects[token_filter][subdir] = contrib
+projects[token_filter][type] = module
+projects[token_filter][download][type] = git
+projects[token_filter][download][url] = http://git.drupal.org/project/token_filter.git
+projects[token_filter][download][branch] = 7c136e4ce38c75a910d242205b71ec2b12f48639
+
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
 
