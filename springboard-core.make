@@ -14,7 +14,7 @@ projects[drupal][version] = 7.25
 projects[sbsetup][type] = profile
 projects[sbsetup][download][type] = git
 projects[sbsetup][download][url] = git://github.com/JacksonRiver/springboard.git
-projects[sbsetup][download][branch] = 7.x-4.x
+projects[sbsetup][download][branch] = 7.x-4.x_805_inline_field_validation-error
 
 ; Springboard themes
 projects[springboard_themes][type] = theme
