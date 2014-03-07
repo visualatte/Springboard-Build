@@ -59,6 +59,9 @@ projects[encrypt][version] = 1.1
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.2
 
+projects[entityreference][subdir] = contrib
+projects[entityreference][version] = 1.1
+
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
 projects[improved_multi_select][version] = 2.x-dev
