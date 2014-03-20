@@ -26,7 +26,7 @@ projects[springboard_themes][download][branch] = 7.x-4.x
 projects[springboard][type] = module
 projects[springboard][download][type] = git
 projects[springboard][download][url] = git://github.com/JacksonRiver/springboard_modules.git
-projects[springboard][download][branch] = 7.x-4.x
+projects[springboard][download][branch] = 7.x-4.x-springboard_p2p
 
 ;
 ; Contrib modules
@@ -62,6 +62,12 @@ projects[entity][version] = 1.2
 projects[entityreference][subdir] = contrib
 projects[entityreference][version] = 1.1
 
+projects[field_group][subdir] = contrib
+projects[field_group][version] = 1.3
+
+projects[features][subdir] = contrib
+projects[features][version] = 2.0
+
 ; This module is optionally used by webform_goals to make selecting form groups easier.
 projects[improved_multi_select][subdir] = contrib
 projects[improved_multi_select][version] = 2.x-dev
@@ -90,6 +96,9 @@ projects[securepages][version] = 1.0-beta1
 projects[shorten][subdir] = contrib
 projects[shorten][version] = 1.2
 
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0
+
 projects[token][subdir] = contrib
 projects[token][version] = 1.5
 
@@ -98,6 +107,9 @@ projects[token_filter][type] = module
 projects[token_filter][download][type] = git
 projects[token_filter][download][url] = http://git.drupal.org/project/token_filter.git
 projects[token_filter][download][branch] = 7c136e4ce38c75a910d242205b71ec2b12f48639
+
+projects[video_embed_field][subdir] = contrib
+projects[video_embed_field][version] = 2.0-beta7
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.7
