@@ -153,6 +153,9 @@ projects[salesforce][patch][1934790] = http://drupal.org/files/salesforce-sandox
 ; Additional caching login in describObject method
 projects[salesforce][patch][2037609] = http://drupal.org/files/salesforce-object-additional-caching.patch
 
+; Increase the sobject cache from 5 minutes to 1 hour
+projects[salesforce][patch][] = https://raw.github.com/JacksonRiver/Springboard-Build/7.x-4.x-sobject_cache/patches/salesforce_increase_sobject_cache_timeout.patch
+
 ; Make encrypt module use the encrypt key
 projects[encrypt][patch][1927572] = http://drupal.org/files/encrypt_key_is_never_used.patch
 
