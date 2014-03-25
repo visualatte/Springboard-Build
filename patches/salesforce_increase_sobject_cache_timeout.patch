@@ -1,0 +1,15 @@
+diff --git a/includes/salesforce.inc b/includes/salesforce.inc
+index 0493e01..6db4421 100644
+--- a/includes/salesforce.inc
++++ b/includes/salesforce.inc
+@@ -381,8 +381,8 @@ class Salesforce {
+    */
+   public function objects($conditions = array('updateable' => TRUE), $reset = FALSE) {
+     $cache = cache_get('salesforce_objects');
+-    // Force the recreation of the cache when it is older than 5 minutes.
+-    if ($cache && REQUEST_TIME < ($cache->created + 300) && !$reset) {
++    // Force the recreation of the cache when it is older than 1 hour.
++    if ($cache && REQUEST_TIME < ($cache->created + 3600) && !$reset) {
+       $result = $cache->data;
+     }
+     else {
