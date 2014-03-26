@@ -27,6 +27,9 @@ projects[pathauto][version] = 1.2
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
 
+projects[region_tokens][subdir] = contrib
+projects[region_tokens][version] = 1.0-rc3
+
 projects[webform_tokens][subdir] = contrib
 projects[webform_tokens][version] = 1.5-rc1
 
