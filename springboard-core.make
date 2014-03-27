@@ -114,6 +114,9 @@ projects[webform][version] = 3.19
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0
 
+projects[services][subdir] = contrib
+projects[services][version] = 3.7
+
 ;
 ; Libraries
 ;
