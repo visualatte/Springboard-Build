@@ -109,7 +109,7 @@ projects[views_watchdog][subdir] = contrib
 projects[views_watchdog][version] = 3.3
 
 projects[webform][subdir] = contrib
-projects[webform][version] = 3.19
+projects[webform][version] = 3.20
 
 projects[webform_ab][subdir] = contrib
 projects[webform_ab][version] = 2.0
